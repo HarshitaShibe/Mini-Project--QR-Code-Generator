@@ -18,15 +18,10 @@ QR codes have become essential in various industries for streamlining processes,
 ## Project Workflow
 ```mermaid
 flowchart TD
-    A[ Project Initialization] --> B[ Install Dependencies]
-    B --> C[ Write Code / Develop Features]
-    C --> D[ Test the Code]
-    D --> E[ Generate Output / Build]
-    E --> F[ Add Files to Git]
-    F --> G[ Write Commit Message]
-    G --> H[ Push to GitHub Repository]
-    H --> I[ Update README.md]
-    I --> J[ Project Deployment or Distribution]
-    J --> K[ Monitor / Maintain the Project]
+    A[ Start Program] --> B[ Accept User Input (Text or URL) ]
+    B --> C[ Generate QR Code using PyQRCode Library ]
+    C --> D[ Save QR Code as PNG using pypng ]
+    D --> E[ Display Success Message / QR Code Details ]
+    E --> F[ End Program ]
 
 
