@@ -18,7 +18,7 @@ QR codes have become essential in various industries for streamlining processes,
 ## Project Workflow
 ```mermaid
 flowchart TB
-    A[Start Program] --> B[Accept User Input (Text or URL)]
+    A[Start Program] --> B[Accept User Input]
     B --> C[Generate QR Code using PyQRCode Library]
     C --> D[Save QR Code as PNG using pypng]
     D --> E[Display Success Message or QR Code Details]
